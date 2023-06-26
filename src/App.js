@@ -22,7 +22,7 @@ const App = () => {
     }
 
     useEffect(()=>{
-        searchMovies('superman');
+        searchMovies('Office');
     },[])
 
     const handleSearch = (event) => {
